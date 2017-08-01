@@ -1,0 +1,182 @@
+.basket{
+	background-color: white;
+	width:96%;
+	padding:2%;
+}
+
+.basket h1{
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.basket table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 10px;
+}
+
+.basket_img_tovar{
+	width: 100px;
+}
+
+.basket th{
+	padding:2px;
+	text-align: center;
+	 border: 2px solid black; /* Граница вокруг ячеек */
+
+}
+
+.basket td{
+	padding: 2px;
+	text-align: center;
+	 border: 2px solid black; /* Граница вокруг ячеек */
+}
+
+.basket_result{
+	text-align: right;
+	margin: 10px 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.delete_tovar{
+	border:0;	
+}
+
+.delete_tovar img{
+	cursor: pointer;
+}
+
+#order_start{
+	cursor: pointer;
+	position: relative;
+	top:-30px;
+	padding: 2px 4px;
+	font-size: 16px;
+}
+
+.orders_basket{
+	display: none;
+	border-top:1px solid gray;
+	background-color: white;
+	width:96%;
+	padding:2%;
+}
+
+.orders_basket h2{
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.orders_basket h3{
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.orders_basket h3 span{
+	font-size: 18px;
+	color:red;
+}
+
+.orders_basket td{
+	padding: 2px;
+	text-align: right;
+	font-size: 18px;
+}
+
+.orders_basket td span{
+	color:red;
+}
+
+.orders_basket td input{
+	float:left;
+	padding: 2px 4px;
+	font-size: 16px;
+	border-radius: 5px;
+	width: 400px;
+}
+
+.orders_basket td select{
+	float:left;
+	height: 30px;
+	font-size: 18px;
+	border-radius:5px;
+}
+
+.orders_basket textarea{
+	resize: none;
+	width: 622px;
+	height: 150px;
+	border-radius: 5px;
+
+}
+
+#continued_execution{
+	position: relative;
+	padding: 2px 4px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+.order_basket{
+	display: none;
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+	background-color: white;
+	width:96%;
+	padding:2%;
+}
+
+.order_basket h2{
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.order_basket h2 p{
+	display: inline-block;
+	font-size: 16px;
+	color: red;
+	padding-left: 5px;
+}
+
+.order_basket h3{
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.order_basket td{
+	padding: 2px;
+	text-align: right;
+	font-size: 18px;
+}
+
+.order_basket td span{
+	color:red;
+}
+
+.order_basket td input{
+	padding: 2px 4px;
+	font-size: 16px;
+	border-radius: 5px;
+	width: 400px;
+}
+
+.order_basket textarea{
+	resize: none;
+	width: 622px;
+	height: 150px;
+	border-radius: 5px;
+
+}
+
+#done_order{
+	cursor: pointer;
+	position: relative;
+	padding: 2px 4px;
+	font-size: 16px;
+}
+
+.error{
+	float:left;
+}

@@ -1,0 +1,27 @@
+.article{
+	width: 94%;
+	padding: 3%;
+	background-color: white;
+}
+
+.article h1{
+    padding-bottom: 14px;
+    border-bottom: 1px solid #e5e5e5;
+    font-family: Arial;
+    font-size: 20px;
+    color: #3a2d2b;
+    font-weight: bold;
+}
+
+.article h2{
+    color: #3a2d2b;
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.article p{
+	font-size: 16px;
+	margin-bottom: 20px;	
+}

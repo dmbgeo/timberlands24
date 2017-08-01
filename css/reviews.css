@@ -1,0 +1,182 @@
+.reviews_block{
+
+	background-color: white;
+	width:100%;
+	padding-bottom: 40px;
+}
+
+.rev_publish_block{
+border:1px solid gray;
+width: 92%;
+padding:1%;
+margin:0 auto;
+border-radius: 5px;
+height: 210px;
+}
+
+.rev_caption_block{
+	margin: -20px 0 0 20px;
+font-size: 18px;
+font-weight: bold;
+
+}
+
+.rev_block1_block{
+	display:inline-block;
+	width: 46%;
+	padding: 2% 0 2% 4%;
+}
+
+.rev_block2_block{
+	border-left:1px dotted gray;
+	display:inline-block;
+	width: 46%;
+	padding: 2% 0 2% 2%;
+}
+
+.rev_name_block{
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom:5px;
+}
+
+.rev_comment_block{
+	font-size: 16px;
+
+
+}
+
+.left_rev_block{
+	z-index: 100;
+	position: relative;
+	left:-8px;
+	top:100px;
+	cursor: pointer;
+}
+
+.right_rev_block{
+	z-index: 100;
+	position: relative;
+	left:928px;
+	top:100px;
+	cursor:pointer;
+
+}
+
+
+/*-----------------------------*/
+.reviews{
+
+	background-color: white;
+	width:100%;
+	padding: 40px 0 40px 0;
+}
+
+.rev_publish{
+border:1px solid gray;
+width: 92%;
+padding:1%;
+margin:0 auto;
+border-radius: 5px;
+}
+
+.rev_caption{
+	margin: 0px 0 0 20px;
+font-size: 18px;
+font-weight: bold;
+
+}
+
+.rev_block1{
+	display:inline-block;
+	width: 96%;
+	padding: 2% 0 2% 2%;
+}
+
+.rev_block2{
+	border-top:1px dotted gray;
+	display:inline-block;
+	width: 96%;
+	padding: 2% 0 2% 2%;
+}
+
+.rev_name{
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom:5px;
+}
+
+.rev_comment{
+	font-size: 16px;
+
+
+}
+
+.left_rev{
+	z-index: 100;
+	position: relative;
+	left:-8px;
+	top:100px;
+	cursor: pointer;
+}
+
+.right_rev{
+	z-index: 100;
+	position: relative;
+	left:928px;
+	top:100px;
+	cursor:pointer;
+}
+
+.add_comment{
+	background-color: white;
+	text-align: left;
+	padding-left:25%
+}
+
+.add_comment_name{
+	text-align: left;
+    font-family: Arial;
+    font-size: 18px;
+    color: #3a2d2b;
+    font-weight: bold;
+}
+
+.add_comment_text{
+	text-align: left;
+    font-family: Arial;
+    font-size: 18px;
+    color: #3a2d2b;
+    font-weight: bold;
+}
+
+.add_comment_text textarea{
+	width: 60%;
+	height: 100px;
+	resize: none;
+}
+
+#button{
+	padding: 2px 5px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: #ff8127;
+    height: 30px;
+    cursor: pointer;
+}
+
+.error{
+	color:red;
+}
+
+#msg{
+	text-align: left;
+    font-family: Arial;
+    font-size: 18px;
+    color: #3a2d2b;
+    font-weight: bold;
+}
+
+
+

@@ -1,0 +1,22 @@
+ 
+.scrollup{
+	width:88px;
+	height:60px;
+	opacity:0.5;
+	position:fixed;
+	right: 90%;
+	bottom:10%;
+	display:none;
+	color: #fff;
+	background: url("/img/on_top/b-j-top.png") no-repeat scroll 50% 11px #ff8227;
+}
+b.scrollup_title{
+	color:#ffffff;
+	display:none;
+	opacity:.8;
+	margin:35px 0 0 12px;
+	cursor:pointer}
+scrollup:hover b.scrollup_title{opacity:1}.scrollup:hover{opacity:.8}
+
+
+

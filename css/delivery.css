@@ -1,0 +1,27 @@
+.del{
+	background-color: white;
+	width:96%;
+	padding:2%;
+}
+
+.del h1{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.del h2{
+	margin:10px 0 5px 0;
+	font-size: 14px;
+}
+
+.del_block{
+	border-top:1px solid gray;
+}
+.del p{
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+.del img{
+	width: 100%;
+}

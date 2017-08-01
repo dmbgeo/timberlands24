@@ -1,0 +1,97 @@
+.window_phone{
+	display:none;
+	position: fixed;
+	width:100%;
+	height: 100%;
+	left:0;
+	top:0;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 10000;
+
+}
+
+.window_phone_bagraund{
+	border:5px solid #bbc7d7;
+	border-radius: 5px;
+	width: 400px;
+	height: 210px;
+	margin:10% auto;
+	display: block;
+	background-image: url("/img/phone/main_bg.jpg");
+	background-size: 100%;
+	background-color: white;
+}
+
+.window_phone_block{
+
+	margin:15px auto;
+	width: 80%; 
+}
+
+
+.window_phone table{
+	margin:6px 0 0 10px;
+	font-weight: bold;
+	font-size: 16px;	
+	border-bottom: 1px solid #bbc7d7;
+}
+
+.window_phone_block p{
+	font-weight: bold;
+	font-size: 16px;	
+}
+
+.window_phone_block span{
+	margin-left:2px;
+	color:red;
+}
+#name_user input{
+	margin:5px 0;
+	width: 100%;
+	height: 16px;
+	padding: 2px;
+	font-size: 16px;	
+}
+
+#phone_user input{
+	margin-top:5px;
+	width:100%;
+	height: 16px;
+	padding: 2px;
+	font-size: 16px;	
+}
+
+#user_start{
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #f0a068;
+	width: 120px;
+	border-radius:5px;
+	cursor:pointer; 
+}
+
+#user_start:active{
+	border:2px solid gray;
+
+}
+
+.exit_block_phone{
+	position: relative;
+	right:-386px;
+	z-index: 1000;
+	cursor: pointer;
+	top: -230px;
+}
+
+#window_phone_order{
+	display: none;
+	border:5px solid #bbc7d7;
+	border-radius: 5px;
+	color:red;
+	font-size: 18px;
+	text-align: center;
+	margin:10% auto;
+	background-color: white;
+}

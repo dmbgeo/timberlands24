@@ -1,0 +1,28 @@
+.contacts{
+	width: 96%;
+	height: 250px;
+	background-color: white;
+	padding:2%; 
+}
+.contacts h1{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.contacts h2{
+	margin:10px 0 5px 0;
+	font-size: 18px;
+}
+
+.contacts_block{
+	border-top:1px solid gray;
+	padding-top: 10px;
+}
+
+.contacts img{
+	width: 35px;
+}
+
+.contacts tr{
+	border-collapse: 10px;
+}
